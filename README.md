@@ -1,2 +1,2 @@
-# ThuTube
-holiday project not
+# YouTube Clone- Inspired by YouTube
+YouTube Project
