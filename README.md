@@ -55,3 +55,51 @@ YouTubeClone/
 │   └── script.js
 │── assets/
 │   └── thumbnails/
+
+
+## What I Learned From This Project
+
+- Structuring large UI layouts
+
+- CSS Flexbox & Grid
+
+- Responsive design principles
+
+- Organizing frontend projects
+
+- Using Git & GitHub for version control
+
+
+ ## Project Status
+
+## In Progress
+
+This project is still under active development.
+Future updates will focus on adding interactivity and dynamic content.
+
+
+ ## Planned Improvements
+
+- Add video playback functionality
+
+- Implement search functionality
+
+- Integrate YouTube Data API
+
+- Improve UI responsiveness
+
+- Add dark mode
+
+- Add basic interactivity to sidebar and navbar
+
+
+## Author
+
+## Andiswa Hlophe
+Final-year ISTN student at UKZN
+Aspiring Software Developer
+
+## Disclaimer
+
+This project is a **non-commercial, educational clone** created for learning purposes only.
+All design inspiration belongs to YouTube.
