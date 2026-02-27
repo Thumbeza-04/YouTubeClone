@@ -43,7 +43,7 @@
         <div class="notifications-count">3</div>
         <div class="tooltip">Notifications</div>
       </div>
-      <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      <img class="current-user-picture" src="channel-pictures/profilePictute.jpg">
     </div>
      
   </div>
@@ -75,22 +75,28 @@
     </div>
   </div>
   
+  <!--Update on the video preview structure secrtion-->
 <div class="video-grid">
-<div class="video-preview">
+<div class="video-preview" data-video-id="video1">
   <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    <img class="thumbnail" src="thumbnails/intorduction-thumbnail.png" alt="video thumbnail">
       <div class="video-time">14:20</div>
+      <div class="play-overlay">
+        <svg class="play-icon" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z" fill="white"/>
+        </svg>
+      </div>
   </div>
   <div class="video-info-grid">
     <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+      <img class="profile-picture" src="channel-pictures/ChanelPicture.jpg" alt="Channel">
     </div>
     <div class="video-info">
        <p class="video-title">
-         Talking Tech and AI with Google CEO Sundar Pichai!
+         My Introductory Video In Software Development | My Journey Into Tech
        </p>
        <p class="video-author">
-         Marques Brownlee
+         Andiswa Hlophe
        </p>
        <p class="video-stats">
          3.4M views &#183; 6 months ago
@@ -99,21 +105,26 @@
   </div>
  </div>
 
- <div class="video-preview">
+ <div class="video-preview" data-video-id="FES-ScreenRecording">
   <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-     <div class="video-time">8:22</div>
+    <img class="thumbnail" src="thumbnails/frontend-thumbnail.png"  alt="video thumbnail">
+     <div class="video-time">29:40</div>
+     <div class="play-overlay">
+        <svg class="play-icon" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z" fill="white"/>
+        </svg>
+      </div>
   </div>
   <div class="video-info-grid">
     <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+      <img class="profile-picture" src="channel-pictures/ChanelPicture.jpg" alt="Channel">
     </div>
     <div class="video-info">
        <p class="video-title">
-         Try Not To Laugh Challenge #9
+         Driving School Management System Project in C# | Intergarted with SQL Database
        </p>
        <p class="video-author">
-         Markiplier
+         Andiswa Hlophe
        </p>
        <p class="video-stats">
          19M views &#183; 4 years ago
@@ -122,21 +133,26 @@
   </div>
  </div>
 
- <div class="video-preview">
+ <div class="video-preview" data-video-id="M4-website-screen-recording">
   <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-     <div class="video-time">9:13</div>
+    <img class="thumbnail" src="thumbnails/website-thumbnail.png" alt="video thumbnail">
+     <div class="video-time">28:29</div>
+     <div class="play-overlay">
+        <svg class="play-icon" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z" fill="white"/>
+        </svg>
+      </div>
   </div>
   <div class="video-info-grid">
     <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+      <img class="profile-picture" src="channel-pictures/ChanelPicture.jpg" alt="Channel">
     </div>
     <div class="video-info">
        <p class="video-title">
-         Crazy Tik Toks Taken Moments Before DISASTER
+         Driving School Management System  Website Project
        </p>
        <p class="video-author">
-         SSSniperWolf
+         Andiswa Hlophe
        </p>
        <p class="video-stats">
          12M views &#183; 1 year ago
@@ -145,76 +161,22 @@
   </div>
  </div>
 
- <div class="video-preview">
-  <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-     <div class="video-time">22:09</div>
-  </div>
-  <div class="video-info-grid">
-    <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-    </div>
-    <div class="video-info">
-       <p class="video-title">
-        The Simplest Math Problem No One Can Solve - Collatz Conjecture
-       </p>
-       <p class="video-author">
-         Veritasium
-       </p>
-       <p class="video-stats">
-         18M views &#183; 4 months ago
-       </p>
-    </div>
-  </div>
- </div>
+ 
 
- <div class="video-preview">
-  <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-     <div class="video-time">11:17</div>
-  </div>
-  <div class="video-info-grid">
-    <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+<!-- Video Player Modal -->
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
-    <div class="video-info">
-       <p class="video-title">
-         Kadane's Algorithm to Maximum Sum Subarray Problem
-       </p>
-       <p class="video-author">
-        CS Dojo
-       </p>
-       <p class="video-stats">
-         519k views &#183; 5 years ago
-       </p>
-    </div>
-  </div>
- </div>
+</div>
 
- <div class="video-preview">
-  <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
-  </div>
-  <div class="video-info-grid">
-    <div class="channel-picture">
-      <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-       <div class="video-time">19:59</div>
-    </div>
-    <div class="video-info">
-       <p class="video-title">
-         Anything You Can Fit In The Circle I’ll Pay For
-       </p>
-       <p class="video-author">
-         MrBeast
-       </p>
-       <p class="video-stats">
-         141M views &#183; 1 year ago
-       </p>
-    </div>
-  </div>
- </div>
-</div>  
-
+ <script src="video-player.js"></script>
 </body>
  
 </html>
