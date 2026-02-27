@@ -10,6 +10,7 @@ This project is part of my frontend development practice, with emphasis on HTML,
 
 This YouTube Clone visually recreates the main YouTube interface, including:
 - Video thumbnails
+- Video playback
 - Sidebar navigation
 - Top navigation bar
 
@@ -21,13 +22,13 @@ The goal of this project is to practice building real-world UI layouts before ad
 ###  What Works
 - Static YouTube-style layout
 - Video thumbnails display correctly
+- video playback
 - Sidebar UI
 - Top navigation bar UI
 - Responsive layout (depending on screen size)
 
 ###  What Does NOT Work (Yet)
 - No database
-- No video playback
 - Search button is non-functional
 - Sidebar buttons are non-functional
 - Top bar buttons are non-functional
@@ -79,8 +80,6 @@ Future updates will focus on adding interactivity and dynamic content.
 
 
  ## Planned Improvements
-
-- Add video playback functionality
 
 - Implement search functionality
 
