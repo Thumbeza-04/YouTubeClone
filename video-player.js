@@ -1,17 +1,17 @@
 // Video data mapping
 const videoSources = {
-    'video1': 'videos/video1.mp4',  // Update with your actual video paths
+    'IntroVideo': 'videos/IntroVideo.mp4',  
     'M4-website-screen-recording': 'videos/M4-website-screen-recording.mp4',
     'FES-ScreenRecording': 'videos/FES-ScreenRecording.mp4',
-    // Add more videos as needed
+    
 };
 
-// Get modal elements
+// Getting modal elements
 const modal = document.getElementById('videoModal');
 const videoPlayer = document.getElementById('videoPlayer');
 const closeBtn = document.getElementsByClassName('close')[0];
 
-// Add click event to all video previews
+// Adding click event to all video previews
 document.querySelectorAll('.video-preview').forEach(preview => {
     preview.addEventListener('click', function(e) {
         // Don't open if clicking on channel link or other interactive elements
@@ -24,7 +24,7 @@ document.querySelectorAll('.video-preview').forEach(preview => {
     });
 });
 
-// Also make thumbnails clickable
+// Also making thumbnails clickable
 document.querySelectorAll('.thumbnail-row').forEach(thumbnail => {
     thumbnail.addEventListener('click', function(e) {
         e.stopPropagation();
@@ -34,7 +34,7 @@ document.querySelectorAll('.thumbnail-row').forEach(thumbnail => {
     });
 });
 
-// Function to play video
+// Function to play the video
 function playVideo(videoId) {
     const videoPath = videoSources[videoId];
     
@@ -47,7 +47,7 @@ function playVideo(videoId) {
     }
 }
 
-// Close modal when clicking X
+// Closing modal when clicking X
 closeBtn.onclick = function() {
     closeVideo();
 }
