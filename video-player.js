@@ -3,6 +3,7 @@ const videoSources = {
     'IntroVideo': 'videos/IntroVideo.mp4',  
     'M4-website-screen-recording': 'videos/M4-website-screen-recording.mp4',
     'FES-ScreenRecording': 'videos/FES-ScreenRecording.mp4',
+    'YouTubeScreenRecording': 'videos/YouTubeScreenRecording.mp4',
     
 };
 
